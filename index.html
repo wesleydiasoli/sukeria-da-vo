@@ -4,35 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sukeria da Vó</title>
-    <link rel="stylesheet" href="style-home.css">
-    <link rel="stylesheet" href="style-home.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <header>
-    <h1 class="titulo-principal">Sukeria da Vó</h1> 
+        <div> 
+            <h1><img src="logo.jpeg"></h1>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contatos.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <img src="logo.jpeg">
+            
     
-    <div class="principal">
     
-        <h2 class="titulo-centralizado">Sobre a Sukeria da Vó</h2>
     
-        <p>Nova proposta pra cidade</p>
+    <main>
+        <section class="principal">
     
-        <p id="missao">Nossa missão é oferecer sucos naturais</p>
+            <h2 class="titulo-principal">Sobre a Sukeria da Vó</h2>
+            
+            <img class="utensilios" src="utensilios.jpeg" alt="utensilios da sukeria da vó">
+
+            <p>Localizada no coração da cidade<strong> a Sukeria da Vó</strong> traz para o mercado o que é de melhor para sua saúde. Fundada em 2021, a Sukeria da Vó já é destaque na cidade e conquista novos clientes a cada gole.</p>
+        
+            <p id="missao"><em>Nossa missão é: <strong>"Proporcionar saciedade e qualidade de vida aos nossos clientes"</strong>.</em> </p>
+        
+            <p>Oferecemos produtos saborosos e novas receitas. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+        </section>
+
+
+        <section class="mapa">
+            <h3 class="titulo-principal">Nosso estabelecimento</h3>
+            <p>Nosso estabelecimento está localizado no coração da cidade.</p>
+            
+            <div class="mapa-conteudo">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14797.556620483134!2d-47.89214855!3d-21.996395250000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1616177964048!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+            </div>
+            
+        </section>
+
+
+
+        <section class="beneficios">
+                <h3 class="titulo-principal">Beneficios</h2>
+            
+
+            <div class="imagem-beneficios">
+
+                <ul class="lista-beneficios">
+                    <li class="itens">Atendimento aos clientes por entrega</li>
+                    <li class="itens">Padrão de higiene</li>
+                    <li class="itens">Localização</li>
+                    <li class="itens">Sucos naturais</li>
+                    <li class="itens">Limpeza e higiene</li>
+                    <li class="itens">Zero açucar</li>
+
+                </ul><img src="beneficios.jpg" class="imagem-beneficios">
+            </div>
+        </section>
+    </main>
     
-        <p>Oferecemos produtos de qualidade</p>
-    </div>
-    
-    <div class="beneficios">
-            <h3 class="titulo-centralizado">Beneficios</h2>
-        <ul>
-            <li class="itens">Atendimento aos clientes por entrega</li>
-            <li class="itens">Padrão de higiene</li>
-            <li class="itens">Localização</li>
-            <li class="itens">Sucos naturais</li>
-        </ul>
-        <img src="beneficios.jpg" class="imagembeneficios">
-    </div>
+    <footer>
+        <img src="logo-fundo-branco.jpg" >
+        
+        <p class="copyright">&copy;Copyright Sukeria da Vó - 2021</p>
+    </footer>
 </body>
 </html>
